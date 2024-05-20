@@ -4,6 +4,8 @@ import {Features} from "./components/Features";
 import Image from "next/image";
 import { FAQ } from "./components/FAQ";
 import { Pricing } from "./components/Pricing";
+import { Cta } from "./components/Cta";
+import { Footer } from "./components/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <Features/>
       <FAQ/>
       <Pricing/>
+      <Cta/>
+      <Footer/>
     </div>
     </>
   );
